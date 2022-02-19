@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*Body*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #eee;
+}
+/*header*/
+#header{
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    background-color: #eee;
+    overflow: hidden;
+}
+#title{
+    display: flex;
+    margin: 20px 0px 10px 30px;
+    flex-direction: row;
+    gap:10px;
+}
+#go{
+    position: fixed;
+    width:100%;
+    height: 20px;
+}
+#header-img{
+    width: 40px;
+    margin-top: px;
+
+}
+#nav-bar{
+    position:fixed;
+    left:900px;
+    bottom: 710px;
+}
+.nav-link{
+    margin:0 50px;
+    text-decoration: none;
+    color:black;
+}
+/*main*/
+#section-1{
+    width: 400px;
+    height: 200px;
+    margin:auto;
+    text-align: center;
+    margin-top:20px;
+    
+}
+
+#section-1 form{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+  
+}
+#section-1 h2{
+    margin-bottom: 20px;
+}
+#search{
+    width: 250px;
+    margin:auto;
+    height: 28px;
+}
+#button{
+    width: 165px;
+    height: 30px;
+    margin: auto;
+    border: none;
+    background-color: #f77f97;
+    font-weight: bolder;
+    
+}
+#button:hover{
+    cursor: pointer;
+}
+.Feature{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin:0 0 30px 350px;
+    width: 900px;
+}
+
+
+.feature-img{
+    height:80px;
+}
+#video{
+    margin:10px 0 0 530px;
+}
+#section-3{
+    width: 950px;
+    height: 320px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+#pricing{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
+@media only screen and (max-width: 600px){
+    #pricing{
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+    }
+    .Feature{
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        margin:0 0 30px 50px;
+        width: 900px;
+    }
+
+}
+.pricing-item{
+    text-align: center;
+    border: solid black 1px;
+    height: 350px;
+    width: 350px;
+    margin-bottom: 50px;
+}
+.pricing-item_top{
+    background-color: #DDDDDD;
+    width: 100%;
+}
+.pricing-item_top h3{
+    padding-top:10px ;
+    background-color: #DDDDDD;
+    padding-bottom: 17px;
+}
+.pricing-item h2{
+    margin-top: 20px;
+}
+.pricing-item p{
+    width: 100px;
+    margin:auto;
+    margin-top:20px;
+    line-height: 30px;
+}
+.pricing-item input{
+    width: 165px;
+    height: 40px;
+    margin: auto;
+    border: none;
+    background-color: #f77f97;
+    font-weight: bolder;
+    margin-top: 15px;
+    font-size: large;
+}
